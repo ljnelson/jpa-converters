@@ -28,7 +28,9 @@
 package com.edugility.jpa.converters;
 
 import javax.persistence.AttributeConverter;
+import javax.persistence.Converter;
 
+@Converter
 public class ClassToStringConverter implements AttributeConverter<Class<?>, String> {
 
   public ClassToStringConverter() {
