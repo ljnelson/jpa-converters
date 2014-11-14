@@ -1,0 +1,14 @@
+<!-- -*- markdown -*- -->
+# Introduction
+
+Welcome to the `${project.artifactId}` project.
+`${project.artifactId}` provides commonly needed [JPA attribute
+converters].
+
+# API Documentation
+
+The API is fully documented.  Please see the [API documentation][2] to
+get started.
+
+[1]: https://docs.oracle.com/javaee/7/api/javax/persistence/AttributeConverter.html
+[2]: apidocs/index.html
