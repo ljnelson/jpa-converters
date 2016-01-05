@@ -65,10 +65,10 @@ public class BooleanToShortConverter implements AttributeConverter<Boolean, Shor
    * which case {@code null} will be returned
    *
    * @return {@code null} if {@code b} is {@code null}, {@link
-   * Short#valueOf(short) Short.valueOf(1)} if {@code b} is
+   * Short#valueOf(short) Short.valueOf((short)1)} if {@code b} is
    * {@linkplain Boolean#equals(Object) equal to} {@link
-   * Boolean#TRUE}, and {@link Short#valueOf(short) Short.valueOf(0)}
-   * in all other cases
+   * Boolean#TRUE}, and {@link Short#valueOf(short)
+   * Short.valueOf((short)0)} in all other cases
    */
   @Override
   public Short convertToDatabaseColumn(final Boolean b) {
