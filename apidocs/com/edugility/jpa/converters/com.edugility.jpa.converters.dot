@@ -38,5 +38,19 @@ digraph G {
 <tr><td align="left" balign="left"> # loadClass(name : String) : Class&lt;?&gt; </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ClassToStringConverter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// com.edugility.jpa.converters.BooleanToShortConverter
+	c2 [label=<<table title="com.edugility.jpa.converters.BooleanToShortConverter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BooleanToShortConverter.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> BooleanToShortConverter </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + BooleanToShortConverter() </td></tr>
+<tr><td align="left" balign="left"> + convertToDatabaseColumn(b : Boolean) : Short </td></tr>
+<tr><td align="left" balign="left"> + convertToEntityAttribute(s : Short) : Boolean </td></tr>
+		</table></td></tr>
+		</table>>, URL="./BooleanToShortConverter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 
